@@ -1,0 +1,100 @@
+@media (max-width: 1200px){
+        #home{
+            margin: 40px auto;
+        }
+        #home div p{
+            font-size: 35px;
+        }
+        #home p{
+            font-size: 19px;
+        }
+    }
+@media (max-width:1000px) {
+    #home{
+        margin: 35px auto;
+    }
+    #navBarTitle{
+        margin-left: 40px;
+        font-size: 2.5rem;
+    }
+    .navBarList a{
+        font-size:1.1rem;
+    }
+    #uList{
+        margin:0px 0px 0px 30px;
+    }
+}
+@media (max-width:800px){
+    #home{
+        margin: 25px auto;
+    }
+    #home div p{
+        font-size: 25px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+    #navBar{
+        display: block;
+        height: 130px;
+    }
+    #navBarTitle{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 12px 0px;
+        font-size: 2rem;
+    }
+    #uList{
+        margin: 20px 0px 0px 0px;
+        justify-content: center;
+    }
+    .navBarList:hover{
+        background-color: initial;
+        border-bottom: 4px solid rgb(0, 110, 255);
+         border-radius: 0px;
+    }
+    .navBarList a:hover{
+        color: initial;
+    }
+}
+@media (max-width:510px) {
+    #home{
+        margin: 30px auto;
+        width:90%;
+    }
+ 
+    .navBarList{
+        margin: 0px 5px;
+    }
+    .navBarList a{
+        padding: 5px;
+        font-size: 1rem;
+    }
+}
+@media (max-width:400px){
+    #home{
+        margin: 20px auto;
+        width:90%;
+    }
+    #home div p{
+        font-size: 23px;
+    }
+    #home p{
+        font-size: 13px;
+    }
+    .navBarList{
+        margin: 0px;
+    }
+    .navBarList a{
+        padding: 3px;
+    }
+}
+@media (max-width:330px){
+    #navBarTitle{
+        font-size: 1.7rem;
+    }
+    .navBarList a{
+        font-size: .8rem;
+    }
+}

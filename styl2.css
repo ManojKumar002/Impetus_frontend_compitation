@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  
+}
+
+html{
+    height: 100%;
+
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    min-height: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    position: relative;
+    margin-top: 320px;
+}
+
+
+.row{
+    
+    padding:1rem;
+    background-color: rgb(17, 9, 26);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex:1;
+    color: #fff;
+}
+
+.footer-col{
+    margin-top:2rem;
+}
+
+.footer-col a img{
+    width:150px;
+    height:150px;
+} 
+
+.footer-col form *{
+    padding:.4rem;
+    margin: .4rem;
+    display:flex;
+    flex-direction: column;
+}
+
+form textarea{
+    resize: vertical;
+}
+
+#social *{
+
+    margin: .4rem;
+    padding:.2rem;
+}
+
+#social ul li{
+    padding:3px;
+    margin:3px;
+    display: inline;
+    margin-left: -.4rem;
+}
+
+#social ul li{
+    padding: 5px 5px;
+}
+
+#social ul li:hover i{
+    color:rgb(76, 38, 126);
+}
+
+#contact *{
+
+    margin:.4rem;
+    padding:.4rem;
+
+}
+
+#break{
+    width:100%;
+    height:2px;
+    background-color: #fff;
+    color:white;
+    margin:.8rem 0 .8rem;
+}
+
+#msg{
+    font-size: 1rem;
+}
+
+.footer-col input, #msg{
+    background-color: rgb(73, 48, 94);
+    border: 0;
+    padding:.5rem .8rem;
+    border-radius: .5rem;
+    color:white;
+    outline: none;
+}
+
+#msg:active, #msg:focus{
+    outline: none;
+    cursor: pointer;
+}
+
+form .submit{
+    padding:.6rem 1.2rem;
+    border:none;
+    color:#fff;
+    border-radius: .6rem;
+    background-color: rgb(73, 48, 94);
+}
+
+input[type="email"]:invalid{
+    background-color: rgb(117, 28, 28);
+}
+
+input[type="email"]:valid{
+    background-color: rgb(95, 40, 167);
+}
+
+form .submit:active, form .submit:focus {
+   transform: scale(.98);  
+   outline:none; 
+}
+
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
